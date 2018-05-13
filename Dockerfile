@@ -1,4 +1,4 @@
-FROM node:argon
+FROM node:10.1-alpine
 
 WORKDIR /
 
