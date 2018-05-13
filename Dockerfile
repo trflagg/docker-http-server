@@ -4,6 +4,6 @@ WORKDIR /
 
 RUN npm install -g http-server
 
-EXPOSE 8080
+EXPOSE 3000 
 
 CMD [ "http-server" ]
